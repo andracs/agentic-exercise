@@ -1,11 +1,13 @@
 # Agentisk udvikler — 6-timers lab (lejet GPU-instans)
 
-En opbygnings-lab, hvor eleverne konstruerer en AI-agent **ét lag ad gangen**:
+Et **hands-on** lab, hvor vi konstruerer en AI-agent **ét lag ad gangen**:
 råt modelkald → værktøjskald → agent-loop → værktøjskasse → værn → multi-agent →
-afsluttende opgave. Hver øvelse genbruger den forrige, så de ved time seks har
+afsluttende opgave. 
+
+Hver øvelse genbruger den forrige, så de ved efter 6 timer har vi
 bygget en rigtig agent fra bunden og forstår hver bevægelig del.
 
-- **Målgruppe:** øvede programmører (Java eller TypeScript). Passer en cybersikkerheds-cohort.
+- **Målgruppe:** øvede programmører (Java eller TypeScript). 
 - **Infrastruktur:** én lejet GPU-instans (fx Hetzner GEX131, ~1,42 €/time), der
   serverer en model med stabile værktøjskald via vLLM bag et OpenAI-kompatibelt
   endpoint. ~8,50 € for hele sessionen.
